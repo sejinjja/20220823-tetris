@@ -1,0 +1,33 @@
+html,body {
+    background: white;
+}
+
+#tetris {
+    width: 100px;
+    height: 200px;
+
+    padding: 1px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(10, 10px);
+    grid-template-rows: repeat(10, 10px);
+}
+
+#tetris > div {
+    border: 1px solid green;
+}
+
+div.filled {
+    background: black;
+}
+
+div.move {
+    background: red;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
